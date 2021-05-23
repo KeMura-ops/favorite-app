@@ -1,1 +1,1 @@
-alert('いいねの解除');
+document.getElementById('post_<%= @post.id %>').innerHTML = '<%= j(render @post) %>'
